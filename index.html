@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hite_site</title>
+  <style>
+    * {margin: 0; padding: 0;}
+    li {list-style: none;}
+    a {color: black; text-decoration: none;}
+    img {display: block;}
+
+    /*-------- header --------*/
+    .logo {
+      width: 100%; height: 30px;
+      background-color: #ccc;
+      text-align: center;
+      line-height: 30px;
+    }
+
+    .nav_box {
+      width: 1070px; height: 100px;
+      line-height: 100px;
+      margin: 0 auto;
+    }
+    
+    .gnb ul {
+      float: right;
+    }
+    .gnb li {
+      width: 60px; height: 100px;
+      font-size: 10px;
+      text-align: center;
+      float: left;
+    }
+
+    .lnb li {
+      display: inline;
+      margin-right: 100px;
+    }
+
+    /*-------- main_visual --------*/
+    .main_visual {
+      width: 100%; height: 400px;
+      background-color: #ccc;
+    }
+    .main_visual .main {
+      width: 1600px; height: 400px;
+      background-color: #999;
+      text-align: center;
+      line-height: 400px;
+      margin: 0 auto;
+    }
+
+    /*-------- container --------*/
+    .container_box {
+      width: 100%;
+      background-color: #eee;
+      padding: 50px 0;
+    }
+
+    .container {
+      width: 1070px;
+      margin: 0 auto;
+    }
+
+    .container .title {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .container .main_top {
+      overflow: hidden;
+      margin-bottom: 10px;
+    }
+    .container .main_top .float {
+      float: left;
+    }
+
+    .container .main_top .top_left01 {
+      margin-bottom: 10px;
+    }
+
+    .container .main_top .top_mid {
+      margin: 0 10px;
+    }
+
+    .container .main_top .top_right0304 {
+      overflow: hidden;
+      margin-bottom: 10px;
+    }
+    .container .main_top .top_right0304 div {
+      float: left;   
+    }
+    .container .main_top .top_right03 {
+      margin-right: 10px;
+    }
+
+    .container .main_bottom {
+      overflow: hidden;
+    }
+    .container .main_bottom div{
+      float: left;
+    }
+    .container .main_bottom .bottom08 {
+      margin: 0 10px;
+    }
+    /*-------- sns --------*/
+    .sns {
+      width: 1070px; height: 300px;
+      border: 1px solid black; box-sizing: border-box;
+      text-align: center;
+      line-height: 300px;
+      margin: 30px auto;
+    }
+
+    /*-------- footer --------*/
+    .footer {
+      height: 500px;
+      background-color: #222;
+      color: white;
+      font-size: 60px;
+      text-align: center;
+      line-height: 500px;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <nav class="logo">
+      하이트진로
+    </nav>
+
+    <div class="nav_box">
+      <nav class="gnb">
+        <ul>
+          <li>LOGIN</li>
+          <li>JOIN</li>
+          <li>RECRUIT</li>
+          <li>LANGUAGE</li>
+        </ul>
+      </nav>
+
+      <nav class="lnb">
+        <ul>
+          <li>COMPANY</li>
+          <li>SOCIAL & MEDIA</li>
+          <li>ESG</li>
+          <li>CUSTOMER CENTER</li>
+        </ul>
+      </nav>
+    </div>
+  </header><!--header-->
+  
+
+  <section class="main_visual">
+    <div class="main">
+      main_visual
+    </div>
+  </section><!--main_visual-->
+
+  <section class="container_box">
+    <section class="container">
+      <p class="title">사용자들이 가장 많이 찾으신 컨텐츠를 소개합니다_____</p>
+
+      <div class="main_top">
+        <div class="top_left float">
+          <div class="top_left01">
+            <a href="#"><img src="./images/img_01.jpg" alt="hite_img01"></a>
+          </div>
+          <div class="top_left05">
+            <a href="#"><img src="./images/img_05.jpg" alt="hite_img05"></a>
+          </div>
+        </div>
+
+        <div class="top_mid float">
+          <a href="#"><img src="./images/img_02.jpg" alt="hite_img02"></a>
+        </div>
+
+        <div class="top_right float">
+          <div class="top_right0304">
+            <div class="top_right03">
+              <a href="#"><img src="./images/img_03.jpg" alt="hite_img03"></a>
+            </div>
+            <div class="top_right04">
+              <a href="#"><img src="./images/img_04.jpg" alt="hite_img04"></a>
+            </div>
+          </div>
+
+          <div class="top_right06">
+            <a href="#"><img src="./images/img_06.jpg" alt="hite_img06"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="main_bottom">
+        <div class="bottom07">
+          <a href="#"><img src="./images/img_07.jpg" alt="hite_img07"></a>
+        </div>
+        <div class="bottom08">
+          <a href="#"><img src="./images/img_08.jpg" alt="hite_img08"></a>
+        </div>
+        <div class="bottom09">
+          <a href="#"><img src="./images/img_09.jpg" alt="hite_img09"></a>
+        </div>
+      </div>
+    </section><!--container-->
+  </section>
+
+
+  <section class="sns">
+    <div class="sns_box">
+      최신 하이트진로 sns
+    </div>
+  </section><!--sns-->
+
+
+  <footer class="footer">
+    footer
+  </footer><!--footer-->
+</body>
+</html>
